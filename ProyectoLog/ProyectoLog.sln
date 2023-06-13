@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_Log", "Api_Log\Api_Log.csproj", "{0CB22643-8CD3-4ECD-A881-B53F44A3FD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{707E9BED-FD12-483A-8FF1-8DB7595DD604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura", "Infraestructura\Infraestructura.csproj", "{30A106BA-C78F-450B-A176-0520A8CFAEEA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB22643-8CD3-4ECD-A881-B53F44A3FD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB22643-8CD3-4ECD-A881-B53F44A3FD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB22643-8CD3-4ECD-A881-B53F44A3FD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB22643-8CD3-4ECD-A881-B53F44A3FD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707E9BED-FD12-483A-8FF1-8DB7595DD604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707E9BED-FD12-483A-8FF1-8DB7595DD604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707E9BED-FD12-483A-8FF1-8DB7595DD604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707E9BED-FD12-483A-8FF1-8DB7595DD604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A106BA-C78F-450B-A176-0520A8CFAEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A106BA-C78F-450B-A176-0520A8CFAEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A106BA-C78F-450B-A176-0520A8CFAEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A106BA-C78F-450B-A176-0520A8CFAEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
